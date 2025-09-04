@@ -37,7 +37,7 @@ Avant de commencer, assurez-vous d’avoir installé :
 
 ### 1. Cloner le repository
 ```bash
-git clone <URL_DU_REPOSITORY>
+git clone https://github.com/amaninoblesse/formationiadev.git
 cd formationiadev
 ```
 ### 2. Créer un Environnement Virtuel
