@@ -1,6 +1,6 @@
-# 📚 BookHub API - Projet de Formation IA
+# 📚 Library API - Projet de formation IA
 
-Ce repository contient le projet **BookHub API**, une application de gestion de bibliothèque, spécialement conçue pour la **formation sur l'intégration de l'IA dans le développement avec Django REST Framework**.
+Ce repository contient le projet **Library API**, une application de gestion de bibliothèque, spécialement conçue pour la **formation sur l'intégration de l'IA dans le développement avec Django REST Framework**.
 
 ---
 
@@ -9,7 +9,7 @@ Le projet est configuré et fonctionnel, mais des parties cruciales (**vues, tes
 
 ---
 
-## 🎯 Objectifs de la Formation
+## 🎯 Objectifs de la formation
 - Découvrir comment l’IA peut accélérer le développement.  
 - Expérimenter la collaboration entre différents métiers (**Dev, QA, Analyste**) autour de l’IA.  
 - Apprendre à générer du code, des tests et de la documentation avec des outils comme **GitHub Copilot, ChatGPT, Claude, Windsurf**.  
@@ -17,7 +17,7 @@ Le projet est configuré et fonctionnel, mais des parties cruciales (**vues, tes
 
 ---
 
-## 👥 Rôles et Tâches
+## 👥 Rôles et tâches
 - **Développeur / Intégrateur** : Implémentation des vues API (`views.py`).  
 - **Ingénieur Qualité** : Écriture de la suite de tests (`tests.py`).  
 - **Analyste Fonctionnel** : Rédaction de la documentation et validation des spécifications.  
@@ -33,14 +33,14 @@ Avant de commencer, assurez-vous d’avoir installé :
 
 ---
 
-## ⚙️ Installation et Configuration
+## ⚙️ Installation et configuration
 
 ### 1. Cloner le repository
 ```bash
 git clone https://github.com/amaninoblesse/formationiadev.git
 cd formationiadev
 ```
-### 2. Créer un Environnement Virtuel
+### 2. Créer un environnement virtuel
 Il est fortement recommandé d'isoler les dépendances de votre projet dans un environnement virtuel.
 
 ### Sur Windows :
@@ -58,14 +58,14 @@ source venv/bin/activate
 ```
 Votre invite de commande devrait maintenant afficher (venv) au début.
 
-### 3. Installer les Dépendances
+### 3. Installer les dépendances
 Une fois l'environnement virtuel activé, installez tous les packages nécessaires :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Démarrer le Serveur de Développement
+### 4. Démarrer le serveur de développement
 Lancez le serveur Django pour vérifier que l'installation est un succès.
 
 ```bash
@@ -110,7 +110,7 @@ Allez sur http://localhost:8000/library/api/test. Vous devriez obtenir une répo
 }
 ```
 
-## Démarrage de la Formation
+## Démarrage de la formation
 Une fois votre environnement vérifié, vous êtes prêt pour la formation.
 
 Ouvrez le projet dans votre IDE (VS Code recommandé ou windsurf).
@@ -121,12 +121,14 @@ Ayez sous le pied la bibliothèque de prompts qui vous sera fournie.
 
 Ayez prêts vos assistants IA (Onglets ChatGPT, Claude, Copilot activé dans VS Code).
 
-## Dépannage Commun
+## Dépannage commun
 ModuleNotFoundError: No module named ... : Votre environnement virtuel n'est probablement pas activé. Réactivez-le (venv\Scripts\activate sur Windows) et ré-exécutez pip install -r requirements.txt.
 
 Error: That port is already in use. : Le port 8000 est utilisé. Tuez le processus ou lancez le serveur sur un autre port : python manage.py runserver 8001.
 
-## Ressources Utiles
+## Ressources utiles
 - [Documentation Django](https://docs.djangoproject.com/fr/5.2/)
 - [Documentation Django REST Framework](https://www.django-rest-framework.org/)
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+
+✍️ Conçu et préparé par Noé Amani
